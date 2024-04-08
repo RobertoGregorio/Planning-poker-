@@ -3,6 +3,8 @@ body{
     background-color: rgb(46, 116, 196);
     color: white;
     margin: auto;
+    width: 100%;
+    height: 100%;
 }
 
 header > h1{
@@ -22,14 +24,111 @@ header > h1{
  
 }
 
-#result-section{
+#room-votation{
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 10px;
-    background-color: black;
-    width: 500px;
-    height: 500px;
-    margin-top: 10px;
+    
 }
+
+#room-votation{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    padding : 10px
+}
+
+#user-votation{
+width: 200px;
+height: 250px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+
+#user-votation > span {
+    color: black;
+    background-color: white;
+    width: 200px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    display: flex;
+}
+
+
+#user-votation > span > img {
+max-width: 100%;
+border-radius: 100%;
+}
+
+
+#votation-options{
+    display: none;
+    position: fixed;
+    flex-wrap: wrap;
+    bottom: 0;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding : 10px;
+    background-color: rgba(0, 0, 0, 0.226);
+}
+
+#votation-card {
+    color: rgb(255, 255, 255);
+    background-color: rgb(199, 149, 103);
+    width: 150px;
+    height: 200px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+    cursor: pointer;
+}
+
+#votation-card :hover{
+    background-color: rgba(199, 149, 103, 0.664);
+}
+
+#votation-options-buttom{
+    display: flex;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+#votation-options-buttom :hover{
+    background-color: rgba(202, 88, 84, 0.767);
+}
+
+#open-card-votation-buttom{
+background-color: rgb(202, 87, 84);
+width: 5rem;
+height: 5rem;
+display: flex;
+border-radius: 100%;
+justify-content: center;
+align-items: center;
+
+}
+
+#open-card-votation-buttom > span{
+font-size: 3rem;
+}
+
+#open-card-votation-buttom > span :hover{
+    background-color: rgba(202, 88, 84, 0.767);
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+  cursor: pointer;
+} 
