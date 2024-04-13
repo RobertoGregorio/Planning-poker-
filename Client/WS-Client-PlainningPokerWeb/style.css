@@ -1,6 +1,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(46, 116, 196);
+    background-color:#4473cc;
     color: white;
     margin: auto;
     width: 100%;
@@ -10,7 +10,7 @@ body{
 header > h1{
     display: flex;
     justify-content: center;
-    background-color: rgb(32, 81, 136);
+    background-color: #719ED9;
     margin: auto;
     padding: 10px;
 }
@@ -26,7 +26,6 @@ header > h1{
 
 #room-votation{
     display: flex;
-    
 }
 
 #room-votation{
@@ -66,69 +65,32 @@ border-radius: 100%;
 
 
 #votation-options{
-    display: none;
+    display: flex;
     position: fixed;
-    flex-wrap: wrap;
     bottom: 0;
     margin-top: 30px;
+    justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
     padding : 10px;
-    background-color: rgba(0, 0, 0, 0.226);
+    max-height: 5rem;
+    min-width: 5rem;
+    overflow-y: scroll;
 }
 
+#votation-options  :hover{
+    background-color: rgba(255, 255, 255, 0.74);
+}
 #votation-card {
-    color: rgb(255, 255, 255);
-    background-color: rgb(199, 149, 103);
-    width: 150px;
-    height: 200px;
-    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    outline: 1px #1F54BF solid;
+    color: #1F54BF;
+    width: 3rem;
+    height: 4rem;
+    margin: 1rem;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
-    display: flex;
+    border-radius: 3px;
+    display: flex;  
     cursor: pointer;
 }
-
-#votation-card :hover{
-    background-color: rgba(199, 149, 103, 0.664);
-}
-
-#votation-options-buttom{
-    display: flex;
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 1rem;
-    cursor: pointer;
-}
-
-#votation-options-buttom :hover{
-    background-color: rgba(202, 88, 84, 0.767);
-}
-
-#open-card-votation-buttom{
-background-color: rgb(202, 87, 84);
-width: 5rem;
-height: 5rem;
-display: flex;
-border-radius: 100%;
-justify-content: center;
-align-items: center;
-
-}
-
-#open-card-votation-buttom > span{
-font-size: 3rem;
-}
-
-#open-card-votation-buttom > span :hover{
-    background-color: rgba(202, 88, 84, 0.767);
-}
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24;
-  cursor: pointer;
-} 
