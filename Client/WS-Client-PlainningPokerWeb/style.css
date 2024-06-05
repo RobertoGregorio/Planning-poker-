@@ -7,10 +7,14 @@ body{
     height: 100%;
 }
 
+#plainning-poker-main{
+    display: none;
+}
+
 header > h1{
     display: flex;
     justify-content: center;
-    background-color: #719ED9;
+
     margin: auto;
     padding: 10px;
 }
@@ -22,6 +26,26 @@ header > h1{
     align-items: center;
     margin-top: 10px;
  
+}
+
+#card-content{
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    margin: auto;
+}
+
+#card-content > textarea {
+    width: 80%;
+    height: 50%;
+    display: flex;
+    outline: none;
+    resize: none;
+    padding: 1rem;
+    white-space: normal;
+    letter-spacing: normal;
+    justify-content: left;
 }
 
 #room-votation{
@@ -45,8 +69,7 @@ align-items: center;
 justify-content: center;
 }
 
-
-#user-votation > span {
+#user-votation > img {
     color: black;
     background-color: white;
     width: 200px;
@@ -55,32 +78,37 @@ justify-content: center;
     align-items: center;
     border-radius: 100%;
     display: flex;
+    border: 2px solid black;
 }
 
 
-#user-votation > span > img {
-max-width: 100%;
-border-radius: 100%;
+#user-votation > img {
+max-width: 75%;
+max-height: 60%;
+display: flex;
 }
 
 
 #votation-options{
     display: flex;
+    overflow-y: scroll;
     position: fixed;
+    width: 100%;
     bottom: 0;
     margin-top: 30px;
-    justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
     padding : 10px;
-    max-height: 5rem;
+    max-height: 7rem;
     min-width: 5rem;
-    overflow-y: scroll;
+    background-color: rgba(209, 217, 230, 0.803);
+    justify-content: center;
 }
 
 #votation-options  :hover{
     background-color: rgba(255, 255, 255, 0.74);
 }
+
 #votation-card {
     background-color: rgb(255, 255, 255);
     outline: 1px #1F54BF solid;
@@ -94,3 +122,31 @@ border-radius: 100%;
     display: flex;  
     cursor: pointer;
 }
+
+
+#card-content-public{
+    margin-top: 2rem;
+    width : 80%;
+    overflow-y: scroll;
+    max-width: 80%;
+    max-height: 35rem;
+    display: none;
+    outline: none;
+    resize: none;
+    padding: 1rem;
+    letter-spacing: normal;
+    justify-content: center;
+}
+
+
+
+#plainning-poker-main-init{
+   display: flex;
+   justify-content: space-around;
+   margin-top: 50%;
+    
+}
+
+
+
+

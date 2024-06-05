@@ -1,7 +1,7 @@
 using Fleck;
 
 
-var server = new WebSocketServer("ws://0.0.0.0:8181");
+var server = new WebSocketServer("ws://0.0.0.0:15206");
 
 var connections = new List<IWebSocketConnection>();
 
@@ -12,8 +12,8 @@ server.Start(socket =>
         connections.Add(socket);
         Console.WriteLine("Open!");
     };
-    socket.OnClose = () => Console.WriteLine("Close!");
 
+    socket.OnClose = () => Console.WriteLine("Close!");
     socket.OnMessage = message =>
     {
         foreach (var connection in connections)
