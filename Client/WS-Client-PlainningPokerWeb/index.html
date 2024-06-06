@@ -22,8 +22,15 @@
         <h1>Planning Poker!</h1>
     </header>
     <div id="plainning-poker-main-init">
-            <button type="button" class="btn btn-primary" id="enter-with-admin-player-button">Entrar como admin</button> 
-            <button type="button" class="btn btn-success" id="enter-with-normal-player-button">Entrar como participante</button> 
+
+        <img src="https://firepoker.app/images/icon_23936.png"  alt="">
+        <input class="form-control" type="text" placeholder="Informe seu nome" id="player-name-input">
+        <div id="buttons-init">
+           
+            <button type="button" class="btn btn-primary" id="enter-as-admin-player-button">Entrar como admin</button> 
+            <button type="button" class="btn btn-success" id="enter-as-normal-player-button">Entrar como participante</button> 
+        </div>
+            
     </div>
     <div id="plainning-poker-main">
         
@@ -42,8 +49,8 @@
             
             <br>
             <div id="manager-buttons">
-                <button type="button" class="btn btn-primary"> Reset</button>
-                <button type="button" class="btn btn-primary">Reveal</button>
+                <button id="reset-card-description-btn" type="button" class="btn btn-primary"> Reset</button>
+                <button type="button" class="btn btn-primary">Reveal Votes</button>
                 <button type="button" class="btn btn-primary">Invite</button>
                 <button id="open-card-description-btn"type="button" class="btn btn-primary">Open Card Description</button>
                 <button id="add-card-description-btn"type="button" style="display: none;" class="btn btn-success">Send Description</button>
@@ -56,18 +63,7 @@
     
     
         <section id="room-votation">
-            <div id="user-votation">
-                <h3>Roberto</h2>
-    
-                    <img src="" alt="">
-    
-            </div>
-            <div id="user-votation">
-                <h3>Paulo</h2>
-    
-                    <img src="" alt="">
-    
-            </div>
+           
         </section>
         <br>
         <!-- 
@@ -83,47 +79,41 @@
     
     
         <section id="votation-options">
-            <div id="votation-card">
+            <div id="votation-card" onclick="Vote(0)">
                 0
             </div>
-            <div id="votation-card">
+            <div id="votation-card"onclick="Vote(0)">
                 1/2
             </div>
-            <div id="votation-card">
+            <div id="votation-card"onclick="Vote(1)">
                 1
             </div>
-            <div id="votation-card">
+            <div id="votation-card"onclick="Vote(2)">
                 2
             </div>
-            <div id="votation-card">
+            <div id="votation-card"onclick="Vote(3)">
                 3
             </div>
-            <div id="votation-card">
+            <div id="votation-card"onclick="Vote(5)">
                 5
             </div>
-            <div id="votation-card">
+            <div id="votation-card"onclick="Vote(8)">
                 8
             </div>
-            <div id="votation-card">
+            <div id="votation-card"onclick="Vote(13)">
                 13
             </div>
-            <div id="votation-card">
+            <div id="votation-card"onclick="Vote(20)">
                 20
             </div>
-            <div id="votation-card">
+            <div id="votation-card"onclick="Vote(40)">
                 40
             </div>
-            <div id="votation-card">
+            <div id="votation-card"onclick="Vote(100)">
                 100
             </div>
-            <div id="votation-card">
-                ?
-            </div>
-            <div id="votation-card">
-                Ꝏ
-            </div>
-            <div id="votation-card">
-                ☕
+            <div id="votation-card-confirm"onclick="ConfirmVote()">
+                OK!
             </div>
         </section>
     </div>
