@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "+g1pdXUwJX3p6xE02QRH7OP+R9F6IKwiGI+7RMts11QokR1A35RBHZ/5SpgOGBQJqr+MmeYEUmS4TSwKw2Nkug==",
+  "success": true,
+  "projectFilePath": "C:\\workspace\\codecommit\\Server\\WS-Server\\WS-Server.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\RobertoGregorio\\.nuget\\packages\\fleck\\1.2.0\\fleck.1.2.0.nupkg.sha512",
+    "C:\\Users\\RobertoGregorio\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.5\\microsoft.visualstudio.azure.containers.tools.targets.1.19.5.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,8 @@
+# Use the official Nginx image to serve the static content
+FROM nginx:alpine
+
+# Copy the static files to the Nginx server directory
+COPY ./static-site /usr/share/nginx/html
+
+# Expose port 80 to serve the content
+EXPOSE 80
