@@ -22,7 +22,20 @@ O Planning Poker é uma técnica usada por equipes ágeis para estimar o esforç
 
 3. Abra o arquivo `index.html` em um navegador da web.
 
-4. O site do Planning Poker será carregado e estará pronto para uso.
+OU
+
+### Executando o Projeto com Docker Compose
+
+Para executar o projeto usando Docker Compose, certifique-se de ter o Docker e o Docker Compose instalados no seu sistema. Em seguida, siga estas etapas:
+
+1. Navegue até a raiz do seu projeto onde está localizado o arquivo `docker-compose.yml`.
+
+2. Execute o seguinte comando no terminal:
+
+   ```bash
+   docker-compose up
+
+5. O site do Planning Poker será carregado e estará pronto para uso.
 
 ## Como Contribuir
 
