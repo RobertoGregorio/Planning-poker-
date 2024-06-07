@@ -1,4 +1,4 @@
-# Planning Poker
+# Planning Poker (PROTOTIPO)
 
 Este é um projeto de site de Planning Poker desenvolvido em HTML, CSS e JavaScript, que utiliza WebSocket para comunicação em tempo real.
 
