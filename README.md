@@ -52,3 +52,8 @@ Se você quiser contribuir para este projeto, siga estas etapas:
 ## Autor
 
 [Seu Nome]([https://github.com/seu-usuario](https://github.com/RobertoGregorio))
+
+
+##OBSERVAÇÕES
+
+Esse projeto é somente um prototito de uma ideia desenvolvido sem fins lucrativos, dito isso você encontrará problemas e bugs ao utiliza-lo e possivel que nem todas as features estejam funcionando perfeitamente, fique a vontade para baixar o projeto e customizar da forma que quiser.
