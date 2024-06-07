@@ -2,6 +2,12 @@
 
 Este é um projeto de site de Planning Poker desenvolvido em HTML, CSS e JavaScript, que utiliza WebSocket para comunicação em tempo real.
 
+![image](https://github.com/RobertoGregorio/Planning-poker-/assets/79476403/d749da37-0f84-49c1-8401-d4ddf0e65493)
+
+![image](https://github.com/RobertoGregorio/Planning-poker-/assets/79476403/c1399f3c-96bb-4468-a7bb-7b592437386c)
+
+
+
 ## Descrição
 
 O Planning Poker é uma técnica usada por equipes ágeis para estimar o esforço de desenvolvimento de tarefas. Neste projeto, implementamos uma versão online dessa técnica, onde os membros da equipe podem selecionar cartas de estimativa e visualizar as seleções dos outros membros em tempo real.
